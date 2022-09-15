@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ManagedConfigurations</string>
+
+    <string name="mc_imei_desc">Required IMEI for Management Hardware</string>
+    <string name="mc_imei_title">IMEI</string>
+</resources>

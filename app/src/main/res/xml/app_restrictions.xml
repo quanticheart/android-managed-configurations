@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <restriction
+        android:defaultValue="true"
+        android:description="@string/mc_imei_desc"
+        android:key="imei"
+        android:restrictionType="string"
+        android:title="@string/mc_imei_title" />
+
+</restrictions>

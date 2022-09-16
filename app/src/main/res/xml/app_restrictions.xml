@@ -2,7 +2,7 @@
 <restrictions xmlns:android="http://schemas.android.com/apk/res/android">
 
     <restriction
-        android:defaultValue="true"
+        android:defaultValue="empty"
         android:description="@string/mc_imei_desc"
         android:key="imei"
         android:restrictionType="string"

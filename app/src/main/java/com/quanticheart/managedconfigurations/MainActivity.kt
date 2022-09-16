@@ -11,7 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.details.text = getRestrictionsManagerDebug()?.toString() ?: "NULL CONFIG"
+
         binding.imei.text = getImei() ?: "IMEI NULL"
+
         registerRestrictionsFilter { binding.imei.text = getImei() ?: "IMEI NULL" }
     }
 

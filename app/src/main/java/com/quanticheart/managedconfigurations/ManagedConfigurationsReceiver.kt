@@ -20,7 +20,7 @@ fun Activity.registerRestrictionsFilter(callback: (Bundle) -> Unit) {
         override fun onReceive(context: Context, intent: Intent) {
             // Get the current configuration bundle
             val appRestrictions = getRestrictionsManager()
-            callback(appRestrictions)
+            appRestrictions?.let { callback(it) }
         }
     }
     registerReceiver(restrictionsReceiver, restrictionsFilter)
